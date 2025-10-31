@@ -226,3 +226,11 @@ footer{
   text-shadow: 0 0 10px #0077ff;
   font-size: 1rem;
 }
+
+footer small {
+  display: block;
+  font-size: 0.75rem;
+  color: #8fbfff;
+  margin-top: 6px;
+  opacity: 0.8;
+}
