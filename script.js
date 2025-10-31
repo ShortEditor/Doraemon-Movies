@@ -19,7 +19,7 @@ const movies = [
   { name: "Nobita Aur Jadooi Tapu", poster: "junglemeindangal.jpg", id: "1XPVhTtxJV-zewimwj2oZjRYkoJWVZLje", size: "314 MB", desc: "A mysterious island full of magic and danger." },
   { name: "Nobita and the Animal Planet", poster: "spaceblazer.jpg", id: "1f0dRQuhTMq00gtMZK0OMhm910aw-eRQk", size: "268 MB", desc: "Animals rule the world, and Nobita must protect them." },
   { name: "Underwater Adventure", poster: "UnderwaterAdventure.jpg", id: "1fEaCokr915leZSDP0HL8ahF9JxZWjBEQ", size: "219 MB", desc: "An underwater journey to uncover ocean secrets." },
-  { name: "Nobita and the Steel Troops", poster: "steeltroops.jpg", id: "1IHn1WAWavADoWuybpRD3rqtnaLeJnzz6", size: "218", desc: "Robots rise, and Nobita must defend humanity." },
+  { name: "Nobita and the Steel Troops", poster: "steeltroops.jpg", id: "1IHn1WAWavADoWuybpRD3rqtnaLeJnzz6", size: "218 MB", desc: "Robots rise, and Nobita must defend humanity." },
   { name: "Antarctic Kachi Kochi", poster: "antartickachikochi.jpg", id: "1Ez4gE8U14yvPGjw-ckw63GEafYZRi4To", size: "483 MB", desc: "Frozen mysteries unfold in Antarctica’s icy world." }
 ];
 
@@ -118,4 +118,5 @@ function escapeHtml(text) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
 }
+
 
